@@ -10,7 +10,7 @@ function Books() {
 
   if (data.kind && data.totalItems === 0) {
     return (
-      <span className="holderText">
+      <span className="holderWords">
         Oh dear we couldn't find your book! don't give up, please try again.
       </span>
     );
