@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "ilanaFont2";
+  src: url(../ToDoList/fonts/ButterflyKidsRegular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ilanaFont";
+  src: url(../ToDoList/fonts/LondrinaSketchRegular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "ilanaFont3";
+  src: url(../ToDoList/fonts/MyKids.ttf);
+  font-display: swap;
+}
+
+h3 {
+  text-shadow: 0px 1px 6px black;
+}
+
+::placeholder {
+  color: rgba(0, 0, 255, 0.1);
+  font-size: 35px;
+}
+
+.taskLabel {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background-color: #77b55a;
+  border-radius: 20px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  margin: 30px;
+  margin-bottom: -150px;
+}
+
+.form-inLine {
+  padding: 40px;
+}
+
+.formButton {
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid #4b8f29;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background-color: #b8dfa6;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  margin: 5px;
+}
+
+.formButton:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+.textEnter {
+  display: inline-block;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: #b8dfa6;
+  border-radius: 15px;
+  border: 1px solid #4b8f29;
+  cursor: pointer;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  margin: 10px;
+}
+
+.textEnter:hover {
+  background-color: green;
+  transform: scale(1);
+}
+
+.updateEnter {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: rgba(0, 255, 0, 0.3);
+  border-radius: 10px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+}
+
+.deleteButton {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background-color: #d11a0d;
+  border-radius: 10px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  margin: 5px;
+}
+.deleteButton:hover {
+  background-color: orange;
+}
+.editButton {
+  background-color: #e77a13;
+  border-radius: 10px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  margin: 5px;
+}
+
+.editButton:hover {
+  background-color: red;
+}
+.completeTab {
+  padding: 10px 12px;
+  color: white;
+  font-size: 55px;
+  background-color: yellow;
+  border: 1px solid #4b8f29;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  border-radius: 5px;
+  border: none;
+}
+
+.actionsTab {
+  color: white;
+  font-size: 55px;
+  background-color: yellow;
+  border: 1px solid #112b03;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  border-radius: 5px;
+  border: none;
+}
+
+.taskTab {
+  color: white;
+  font-size: 55px;
+  background-color: yellow;
+  border-radius: 5px;
+  border: 1px solid #4b8f29;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  border: none;
+}
+
+@media (max-width: 800px) {
+  .form-inLine {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .editButton,
+  .deleteButton {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .formButton {
+    font-size: 50px;
+    margin: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .column1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .completeTab {
+    padding: 10px 8px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .actionsTab {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .taskTab {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .textEnter {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .updateEnter {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .button1 {
+    font-size: 37px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 800px) {
+  h3 {
+    font-size: 50px;
+  }
+}

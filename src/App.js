@@ -1,25 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Route, Switch } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Painting from "./pages/Painting";
+import ThingsTodo from "./pages/ThingsToDo";
+import BookSearch from "./pages/BookSearch";
+import CharacterPage from "./pages/CharacterPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route path="/" exact>
+        <HomePage />
+      </Route>
+
+      <Route path="/painting" exact>
+        <Painting />
+      </Route>
+
+      <Route path="/book" exact>
+        <BookSearch />
+      </Route>
+
+      <Route path="/things-to-do" exact component={ThingsTodo} />
+      <Route path="/characters" component={CharacterPage} />
+      <Route
+        path="*"
+        render={() => (
+          <img
+            alt="404"
+            src="https://www.elegantthemes.com/blog/wp-content/uploads/2020/02/000-404.png"
+          />
+        )}
+      />
+    </Switch>
   );
 }
 

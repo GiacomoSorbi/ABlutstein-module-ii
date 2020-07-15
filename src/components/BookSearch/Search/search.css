@@ -1,0 +1,137 @@
+.search {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background-color: #77b55a;
+  border-radius: 20px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  margin: 30px;
+  margin-bottom: -150px;
+}
+
+.search:focus,
+input:focus {
+  outline: none;
+}
+.SearchText {
+  display: inline-block;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: #b8dfa6;
+  border-radius: 15px;
+  border: 1px solid #4b8f29;
+  cursor: pointer;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  margin: 10px;
+}
+
+.ErrorText {
+  font-size: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+  color: white;
+}
+
+.searchSubmit {
+  display: inline-block;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background-color: #e77a13;
+  border-radius: 15px;
+  border: 1px solid #4b8f29;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  margin: 5px;
+}
+
+.searchSubmit:hover {
+  background-color: red;
+}
+
+.closeBtn {
+  color: red;
+  font-weight: 700;
+  font-size: 60px;
+  border: none;
+  cursor: pointer;
+  transition: font-size 0.5s ease;
+  background-color: Transparent;
+}
+
+.searchSubmit {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background-color: #e77a13;
+  border-radius: 15px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  form {
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 25px);
+  }
+}
+
+@media (max-width: 800px) {
+  .search {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 12px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #5b8a3c;
+    margin: 30px;
+    margin-bottom: -150px;
+  }
+}
+
+@media (max-width: 800px) {
+  .SearchText {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ErrorText {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .searchSubmit {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .closeBtn {
+    font-size: 30px;
+  }
+}

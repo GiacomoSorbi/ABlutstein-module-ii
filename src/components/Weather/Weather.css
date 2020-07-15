@@ -1,0 +1,55 @@
+.weather-city {
+  font-size: 50px;
+  position: fixed;
+  right: 210px;
+  top: 140px;
+  font-family: "ilanaFont3";
+}
+
+.weather-temp {
+  position: fixed;
+  right: 140px;
+  top: 146px;
+  font-family: "ilanaFont3";
+  font-size: 30px;
+}
+.weather-icon {
+  position: fixed;
+  right: 40px;
+  top: 110px;
+}
+
+.playtime {
+  position: fixed;
+  font-size: 35px;
+  right: 390px;
+  top: 150px;
+  font-family: "ilanaFont3";
+}
+
+@media (max-width: 800px) {
+  .weather-city {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .weather-icon {
+    top: 110px;
+    right: 230px;
+  }
+}
+
+@media (max-width: 800px) {
+  .playtime {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .weather-temp {
+    right: 320px;
+    top: 150px;
+    font-size: 30px;
+  }
+}

@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+* {
+  font-family: "ilanaFont3";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html {
+  color: red;
+  background-image: url("./components/Images/homePage_scenary.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 60px;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "ilanaFont2";
+  src: url(./components/fonts/ButterflyKidsRegular.ttf);
+  font-display: swap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "ilanaFont";
+  src: url(./components/fonts/LondrinaSketchRegular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "ilanaFont3";
+  src: url(./components/fonts/MyKids.ttf);
+  font-display: swap;
 }
