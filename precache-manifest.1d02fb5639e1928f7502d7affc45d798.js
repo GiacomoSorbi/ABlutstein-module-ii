@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9cfb6b406590aa7bcf52a3b91255b85f",
+    "revision": "efde60d70dfac266c28d1bdae3f0b564",
     "url": "/ABlutstein-module-ii/index.html"
   },
   {
-    "revision": "83a0bb410e3636674a7b",
+    "revision": "73dbf59a2aa6f42e3744",
     "url": "/ABlutstein-module-ii/static/css/main.a46a4695.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ABlutstein-module-ii/static/js/2.5256ed30.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83a0bb410e3636674a7b",
-    "url": "/ABlutstein-module-ii/static/js/main.cf7d1cc4.chunk.js"
+    "revision": "73dbf59a2aa6f42e3744",
+    "url": "/ABlutstein-module-ii/static/js/main.63bacb9e.chunk.js"
   },
   {
     "revision": "87e91532208c9251028c",
