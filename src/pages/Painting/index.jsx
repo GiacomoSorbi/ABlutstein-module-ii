@@ -8,6 +8,7 @@ import "./painting.css";
 import useWindowSize from "../../components/Paint/WindowSize";
 import Refresh from "../../components/Paint/Refresh";
 
+//API fetch for colours from colorapi.com
 function FunTime() {
   const [colors, setColors] = useState([]);
   const [activeColor, setActiveColor] = useState(null);
@@ -38,7 +39,7 @@ function FunTime() {
     timeoutId.current = setTimeout(() => setVisible(false), 500);
   });
 
-  // defining a callback that is passed to the RefreshButton
+  // defining a callback that is passed to the Refresh
   const cb = useCallback(getColors, []);
 
   return (

@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import { characters } from "../../constants";
 import SingleCharacterPage from "../SingleCharacterPage";
 
+//Maps the array of objects for each of the characters that then creates a NavLink for each  of the characters using their id which would then return the characters' picture.
 const CharacterPage = () => (
   <>
     <div className="characterContainer">

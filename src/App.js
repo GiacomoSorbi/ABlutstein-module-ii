@@ -9,6 +9,8 @@ import CharacterPage from "./pages/CharacterPage";
 
 function App() {
   return (
+    //Switch renders the first child <Route> or <Redirect> that matches the location
+    //Route renders some UI when its path matches the current URL
     <Switch>
       <Route path="/" exact>
         <HomePage />

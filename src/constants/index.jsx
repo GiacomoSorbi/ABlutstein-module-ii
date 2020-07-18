@@ -1,3 +1,4 @@
+//Created an array of objects for each of the characters
 export const characters = [
   {
     id: 1,

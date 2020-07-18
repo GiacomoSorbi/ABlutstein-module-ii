@@ -10,12 +10,14 @@ function CanvasBoard({ color, penWidth }) {
   let steps = useRef(0);
   let points = useRef([]);
 
+  //setting the actual drawing element of the application
   useEffect(() => {
     ctx.current = canvasRef.current.getContext("2d");
   }, []);
 
   const [width, height] = useWindowSize();
 
+  //setting the parameters for the X and Y axis for the movement of the mouse:
   const handleMouseMove = e => {
     const coords = [
       e.clientX - canvasRef.current.offsetLeft,

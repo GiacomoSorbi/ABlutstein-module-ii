@@ -10,6 +10,7 @@ const SingleCharacterPage = ({ match }) => {
   const characterDescription = characters.find(elem => elem.id === characterId)
     .description;
 
+  //returns the character picture from the array of objects and the character picture plus descritpion from the array objects.
   return (
     <div>
       <p className="profileHead">Profile for {characterPicture}</p>

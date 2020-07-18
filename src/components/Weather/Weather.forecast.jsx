@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Weather.css";
 
+//Using the lifecycle method of the class system to be able to store weather data and the status of the API call later on.
 class Weather extends Component {
   state = {
     lat: "",
@@ -19,6 +20,7 @@ class Weather extends Component {
       this.getWeather(position.coords.latitude, position.coords.longitude);
     };
 
+    //Error handling
     const error = () => {
       alert(
         "Unable to retrieve location because you have blocked it - please allow."
@@ -34,6 +36,7 @@ class Weather extends Component {
     }
   };
 
+  //Fetching the API
   getWeather = async (latitude, longitude) => {
     const api_call = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=3f24b2bf14e436852ff873111d6e8a0d&units=metric`
@@ -51,6 +54,7 @@ class Weather extends Component {
     });
   };
 
+  //Initalising weather and weather interval time
   componentDidMount() {
     this.weatherInit();
 
