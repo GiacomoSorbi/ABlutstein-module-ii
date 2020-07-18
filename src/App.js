@@ -7,10 +7,10 @@ import ThingsTodo from "./pages/ThingsToDo";
 import BookSearch from "./pages/BookSearch";
 import CharacterPage from "./pages/CharacterPage";
 
+//Switch renders the first child <Route> or <Redirect> that matches the location
+//Route render some UI when its path matches the current URL
 function App() {
   return (
-    //Switch renders the first child <Route> or <Redirect> that matches the location
-    //Route renders some UI when its path matches the current URL
     <Switch>
       <Route path="/" exact>
         <HomePage />
