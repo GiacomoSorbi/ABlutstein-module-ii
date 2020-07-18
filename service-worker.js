@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ABlutstein-module-ii/precache-manifest.ee57249fab49f1dda925b46a8cdcae82.js"
+  "/ABlutstein-module-ii/precache-manifest.8ff3731779f86840b046aab2425238e3.js"
 );
 
 self.addEventListener('message', (event) => {
